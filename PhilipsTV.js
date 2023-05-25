@@ -13,7 +13,7 @@ class PhilipsTV {
 
     constructor(config) {
         const wolURL = config.wol_url;
-        const baseURL = `https://${config.ip_address}:1926/6/`;
+        const baseURL = `https://${config.ip_address}:1925/5/`;
 
         this.api = (path, body = null) => {
             return new Promise((success, fail) => {
