@@ -13,18 +13,13 @@ class PhilipsTV {
 
     constructor(config) {
         const wolURL = config.wol_url;
-        const baseURL = `https://${config.ip_address}:1925/5/`;
+        const baseURL = `http://${config.ip_address}:1925/5/`;
 
         this.api = (path, body = null) => {
             return new Promise((success, fail) => {
                 request({
                     rejectUnauthorized: false,
                     timeout: 3000,
-                    auth: {
-                        user: config.username,
-                        pass: config.password,
-                        sendImmediately: false
-                    },
                     method: body ? "POST" : "GET",
                     body: typeof body === "object" ? JSON.stringify(body) : body,
                     url: `${baseURL}${path}`
