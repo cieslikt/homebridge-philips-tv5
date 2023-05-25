@@ -3,13 +3,13 @@
 Homebridge module for Philips TV (with JointSpace). Power, Sound Level, Ambilight and input control.
 
 ## Description
-This plugin has additional support for Volume control, Ambilight brightness control and custom input selection (application or tv channel). Works on televisions with JointSpace support produced in 2016 and later.
+This plugin has additional support for Volume control, Ambilight brightness control and custom input selection (application or tv channel). Works on televisions with JointSpace support produced in 2014.
 
 ![homebridge philips tv6 preview](https://raw.githubusercontent.com/98oktay/homebridge-philips-tv6/master/homebridge-philips-tv6-preview.gif "Apple Home Accessory Preview")
 
 ## Installation
 - Install homebridge: ```npm install -g homebridge```
-- Install this plugin: ```npm install -g homebridge-philips-tv6```
+- Install this plugin: ```npm install -g homebridge-philips-tv5```
 - Update your configuration file. See the sample below.
 
 ## Configuration
