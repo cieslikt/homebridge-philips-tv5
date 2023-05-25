@@ -1,8 +1,8 @@
 {
-  "name": "homebridge-philips-tv6",
+  "name": "homebridge-philips-tv5",
   "version": "1.0.6",
-  "author": "Oktay Baskus",
-  "description": "Homebridge Plugin for Philips Android TV API v6+",
+  "author": "Thomas Cieslik",
+  "description": "Homebridge Plugin for Philips Android TV API v5",
   "license": "ISC",
   "keywords": [
     "homebridge-plugin",
@@ -11,10 +11,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/98oktay/homebridge-philips-tv6"
+    "url": "git://github.com/cieslikt/homebridge-philips-tv5"
   },
   "bugs": {
-    "url": "https://github.com/98oktay/homebridge-philips-tv6/issues"
+    "url": "https://github.com/cieslikt/homebridge-philips-tv5/issues"
   },
   "engines": {
     "homebridge": ">=0.2.0"
